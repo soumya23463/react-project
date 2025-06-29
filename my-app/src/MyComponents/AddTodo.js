@@ -17,7 +17,7 @@ export const AddTodo = (props) => {
 
   return (
     <div className='container my-4 p-4 shadow rounded bg-light'>
-      <h3 className='text-center mb-4'>➕ Add a New Todo</h3>
+      <h3 className='text-center mb-4'> Add a New Todo</h3>
       <form onSubmit={submit}>
         <div className="form-floating mb-3">
           <input
@@ -45,7 +45,7 @@ export const AddTodo = (props) => {
 
         <div className="d-grid">
           <button type="submit" className="btn btn-success btn-lg">
-            ✅ Add Todo
+             Add Todo
           </button>
         </div>
       </form>

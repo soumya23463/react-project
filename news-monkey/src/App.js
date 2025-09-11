@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Component } from 'react'
+import React from 'react'
 import NavBar from './components/NavBar';
 import News from './components/News';
 import Bookmarks from './components/Bookmarks';
@@ -46,12 +46,12 @@ const AppWrapper = () => {
   )
 }
 
-export default class App extends Component {
-  render() {
-    return (
-      <ThemeProvider>
-        <AppWrapper />
-      </ThemeProvider>
-    )
-  }
+const App = () => {
+  return (
+    <ThemeProvider>
+      <AppWrapper />
+    </ThemeProvider>
+  )
 }
+
+export default App
